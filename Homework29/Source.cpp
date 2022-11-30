@@ -15,7 +15,7 @@ bool overwrite(string path, string tmp) {
 	}	
 	else {
 	cout << "Файл не существует.\n";
-	
+	out.close();
 	return false;
 	}
 }
